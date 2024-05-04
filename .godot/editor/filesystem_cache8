@@ -1,4 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714842262
-icon.svg::CompressedTexture2D::512664765532989566::1714842194::1714842216::1::::<><>::
-::res://Scenes/::1714842262
+::res://::1714843446
+README.md::TextFile::-1::1714842376::0::1::::<><>::
+::res://Images/::1714843510
+::res://Images/Player/::1714842837
+Adam_16x16.png::CompressedTexture2D::7301516259110451985::1714839000::1714842837::1::::<><>::
+::res://Images/Room/::1714843516
+Interiors_free_16x16.png::CompressedTexture2D::3135357657130185647::1714839001::1714843517::1::::<><>::
+::res://Scenes/::1714843455
+MainWorld.tscn::PackedScene::3756092877621905133::1714843455::0::1::::<><>::uid://ciagp2cpls2xq::::res://Scenes/Player.tscn
+Player.tscn::PackedScene::5334744627272666666::1714843449::0::1::::<><>::res://scripts/Player.gd<>uid://dca552mkykoy0::::res://Images/Player/Adam_16x16.png
+::res://scripts/::1714843446
+Player.gd::GDScript::-1::1714843434::0::1::::<>CharacterBody2D<>::
