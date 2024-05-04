@@ -11,9 +11,8 @@ func _ready():
 		R.rotation_degrees = i
 		Rays.append(R)
 	print(Rays.size())
+	Rays[0].show = true
 		
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
+# Called every frame. 'delta' is the elapsed time since the previous frame
