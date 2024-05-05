@@ -21,12 +21,13 @@ func _physics_process(delta):
 		P.visible = true
 		P.global_position = X
 		D = map_and_invert(global_position.distance_to(X))
-		C = SetColorOnTarget("none", D)
+		if(get_collider().name != "Player"):
+			C = SetColorOnTarget(get_collider().exportTag(), D)
 
-		P.modulate = C
-		var Ran = randf_range(0.275,0.95)
-		P.scale = Vector2(Ran,Ran)
-		P.rotation_degrees = randi()
+			P.modulate = C
+			var Ran = randf_range(0.275,0.95)
+			P.scale = Vector2(Ran,Ran)
+			P.rotation_degrees = randi()
 	else:
 		P.visible = false
 
@@ -50,7 +51,9 @@ func darken_color(color: Color, factor: float) -> Color:
 
 func SetColorOnTarget(target: String, dist: float) -> Color:
 	match target:
-		"box":
+		"Box":
 			return darken_color(Color.SADDLE_BROWN, dist)
+		"Special":
+			return darken_color(Color.YELLOW, dist*1.5)
 		_:
 			return darken_color(Color(1, 1, 1), dist*2)

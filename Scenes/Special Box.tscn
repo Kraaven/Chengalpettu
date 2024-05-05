@@ -1,8 +1,14 @@
 [gd_scene load_steps=3 format=3 uid="uid://c55iswksq1fsw"]
 
-[ext_resource type="PackedScene" uid="uid://dmi8wj0j6vd12" path="res://Scenes/block.tscn" id="1_168ho"]
 [ext_resource type="Script" path="res://scripts/Special Box.gd" id="2_y6pni"]
 
-[node name="StaticBody2D" instance=ExtResource("1_168ho")]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q186c"]
+size = Vector2(24, 23)
+
+[node name="StaticBody2D" type="StaticBody2D"]
 script = ExtResource("2_y6pni")
-power = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+z_index = 4096
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_q186c")
