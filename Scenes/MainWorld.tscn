@@ -4,4 +4,5 @@
 
 [node name="World" type="Node2D"]
 
-[node name="Node2D" parent="." instance=ExtResource("1_8n82b")]
+[node name="ZAW" parent="." instance=ExtResource("1_8n82b")]
+unique_name_in_owner = true

@@ -9,6 +9,7 @@ func _ready():
 		var R = RayPrefab.instantiate()
 		$".".add_child(R)
 		R.rotation_degrees = i
+		R.world = $"../.."
 		Rays.append(R)
 	print(Rays.size())
 	Rays[0].show = true

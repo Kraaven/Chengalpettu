@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://bcna5w3yhd63u"]
 
 [ext_resource type="Script" path="res://scripts/CharacterBody2D.gd" id="1_cxr35"]
-[ext_resource type="Script" path="res://Scenes/Raycasts.gd" id="2_bilw0"]
+[ext_resource type="Script" path="res://scripts/Raycasts.gd" id="2_k1w71"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_80dw8"]
 
@@ -12,7 +12,7 @@ size = Vector2(589, 32)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5qxpg"]
 
-[node name="Node2D" type="Node2D"]
+[node name="PWorld" type="Node2D"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 position = Vector2(60, 30)
@@ -27,7 +27,7 @@ scale = Vector2(14, 14)
 texture = SubResource("PlaceholderTexture2D_es74b")
 
 [node name="Raycasts" type="Node2D" parent="CharacterBody2D"]
-script = ExtResource("2_bilw0")
+script = ExtResource("2_k1w71")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(2, 2)
