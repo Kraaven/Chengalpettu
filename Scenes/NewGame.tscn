@@ -18,7 +18,7 @@
 size = Vector2(589, 32)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xybd0"]
-size = Vector2(6073, 22)
+size = Vector2(6413, 22)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hlo8o"]
 size = Vector2(385, 25)
@@ -663,7 +663,7 @@ position = Vector2(4323, -120)
 script = ExtResource("7_qhm8t")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="BottomLimit"]
-position = Vector2(2729.5, 157)
+position = Vector2(2559.5, 157)
 shape = SubResource("RectangleShape2D_xybd0")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]

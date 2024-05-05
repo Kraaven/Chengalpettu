@@ -15,8 +15,18 @@ func exportTag() -> String:
 	return TAG
 
 enum PowerUps {
+	NONE,
 	Mushroom,
 	Star,
-	NONE,
 	fire
 }
+
+func _on_area_2d_body_entered(body):
+	if(body.name == "Player"):
+		if(power == PowerUps.NONE):
+			var B = preload("res://Scenes/block.tscn").instantiate()
+			get_parent().add_child(B)
+			B.global_position = global_position
+			queue_free()
+		elif (power == PowerUps.Mushroom):
+			body.increase()

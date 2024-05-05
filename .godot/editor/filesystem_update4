@@ -7,3 +7,6 @@ res://Scenes/Unbreakable block.tscn
 res://Scenes/block.tscn
 res://scripts/detection_ray.gd
 res://scripts/Ground.gd
+res://scripts/Special Box.gd
+res://scripts/block.gd
+res://scripts/Player.gd

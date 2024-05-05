@@ -8,7 +8,7 @@ size = Vector2(24, 23)
 [sub_resource type="GDScript" id="GDScript_pceca"]
 script/source = "extends Area2D
 
-@export var TAG = \"Special\"
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
@@ -17,9 +17,6 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
-	
-func exportTag():
-	return TAG
 "
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1nlox"]
