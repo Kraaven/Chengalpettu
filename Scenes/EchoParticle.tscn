@@ -1,13 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://dfs6cr7c383op"]
+[gd_scene load_steps=2 format=3 uid="uid://dfs6cr7c383op"]
 
 [ext_resource type="Texture2D" uid="uid://cqphlc7te15o4" path="res://Images/EchoP.png" id="1_wyh2v"]
-[ext_resource type="Script" path="res://scripts/EchoParticle.gd" id="2_yu7fp"]
 
 [node name="Sprite2D" type="Sprite2D"]
 texture = ExtResource("1_wyh2v")
-script = ExtResource("2_yu7fp")
-
-[node name="Timer" type="Timer" parent="."]
-wait_time = 3.5
-
-[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
