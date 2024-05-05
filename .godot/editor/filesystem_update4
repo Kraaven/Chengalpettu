@@ -9,3 +9,5 @@ res://scripts/Cast.gd
 res://Scenes/Raycasts.gd
 res://Scenes/detection_ray.tscn
 res://scripts/detection_ray.gd
+res://scripts/EchoParticle.gd
+res://scripts/Raycasts.gd
