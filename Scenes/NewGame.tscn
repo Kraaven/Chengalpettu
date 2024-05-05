@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://bcna5w3yhd63u"]
+[gd_scene load_steps=16 format=3 uid="uid://bcna5w3yhd63u"]
 
 [ext_resource type="Texture2D" uid="uid://c70iaaumc6600" path="res://Images/Level.jpg" id="1_1mpbw"]
 [ext_resource type="Script" path="res://scripts/CharacterBody2D.gd" id="1_cxr35"]
@@ -9,6 +9,7 @@
 [ext_resource type="Script" path="res://scripts/Ground.gd" id="5_s6bjr"]
 [ext_resource type="PackedScene" uid="uid://c1o30w1hut6oo" path="res://Scenes/Unbreakable block.tscn" id="6_u20pe"]
 [ext_resource type="Script" path="res://scripts/Bottom.gd" id="7_qhm8t"]
+[ext_resource type="PackedScene" uid="uid://piqn8cyglhvv" path="res://Scenes/mushroom enemy.tscn" id="10_1kkpl"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_80dw8"]
 
@@ -33,6 +34,7 @@ texture = ExtResource("1_1mpbw")
 metadata/_edit_lock_ = true
 
 [node name="Player" type="CharacterBody2D" parent="."]
+unique_name_in_owner = true
 position = Vector2(0, -47)
 script = ExtResource("1_cxr35")
 
@@ -673,5 +675,47 @@ script = ExtResource("5_s6bjr")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(193, -5)
 shape = SubResource("RectangleShape2D_hlo8o")
+
+[node name="Area2D" parent="." instance=ExtResource("10_1kkpl")]
+position = Vector2(847, -49)
+
+[node name="Area2D2" parent="." instance=ExtResource("10_1kkpl")]
+position = Vector2(964, -50)
+
+[node name="Area2D3" parent="." instance=ExtResource("10_1kkpl")]
+position = Vector2(1252, -51)
+
+[node name="Area2D4" parent="." instance=ExtResource("10_1kkpl")]
+position = Vector2(1558, -50)
+
+[node name="Area2D5" parent="." instance=ExtResource("10_1kkpl")]
+position = Vector2(1892, -153)
+
+[node name="Area2D6" parent="." instance=ExtResource("10_1kkpl")]
+position = Vector2(2072, -55)
+
+[node name="Area2D7" parent="." instance=ExtResource("10_1kkpl")]
+position = Vector2(2318, -255)
+
+[node name="Area2D8" parent="." instance=ExtResource("10_1kkpl")]
+position = Vector2(2790, -51)
+
+[node name="Area2D9" parent="." instance=ExtResource("10_1kkpl")]
+position = Vector2(2628, -153)
+
+[node name="Area2D10" parent="." instance=ExtResource("10_1kkpl")]
+position = Vector2(3265, -253)
+
+[node name="Area2D11" parent="." instance=ExtResource("10_1kkpl")]
+position = Vector2(3465, -51)
+
+[node name="Area2D12" parent="." instance=ExtResource("10_1kkpl")]
+position = Vector2(3702, -48)
+
+[node name="Area2D13" parent="." instance=ExtResource("10_1kkpl")]
+position = Vector2(4084, -50)
+
+[node name="Area2D14" parent="." instance=ExtResource("10_1kkpl")]
+position = Vector2(354, -51)
 
 [connection signal="body_entered" from="BottomLimit" to="BottomLimit" method="_on_body_entered"]

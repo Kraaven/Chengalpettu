@@ -58,5 +58,7 @@ func SetColorOnTarget(target: String, dist: float) -> Color:
 			return darken_color(Color.YELLOW, dist*1.5)
 		"Enemy":
 			return darken_color(Color.RED, dist)
+		"Death":
+			return darken_color(Color.BLACK, dist)
 		_:
 			return darken_color(Color(1, 1, 1), dist*2)

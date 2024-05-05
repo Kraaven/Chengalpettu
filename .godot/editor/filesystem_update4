@@ -1,8 +1,12 @@
-res://Scenes/MainWorld.tscn
+res://Scenes/mushroom enemy.tscn
+res://scripts/mushroom-manager.gd
 res://Scenes/NewGame.tscn
+res://Scenes/MainWorld.tscn
 res://Scenes/EchoParticle.tscn
 res://Scenes/detection_ray.tscn
 res://Scenes/Special Box.tscn
 res://Scenes/Unbreakable block.tscn
 res://Scenes/block.tscn
-res://Scenes/mushroom enemy.tscn
+res://scripts/CharacterBody2D.gd
+res://scripts/Bottom.gd
+res://scripts/detection_ray.gd
