@@ -18,11 +18,11 @@ script = ExtResource("2_x68jf")
 scale = Vector2(6.36, 6.36)
 polygon = PackedVector2Array(-2.35849, -9.27673, 0, -9.74843, 2.51572, -9.1195, 7.54717, -5.03145, -6.91824, -5.03145)
 
-[node name="RayCast2D" type="RayCast2D" parent="."]
+[node name="RayCastLeft" type="RayCast2D" parent="."]
 rotation = -4.71239
 target_position = Vector2(0, 80)
 
-[node name="RayCast2D2" type="RayCast2D" parent="."]
+[node name="RayCastRight" type="RayCast2D" parent="."]
 rotation = -1.5708
 target_position = Vector2(0, 80)
 

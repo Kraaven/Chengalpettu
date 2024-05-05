@@ -3,8 +3,8 @@ extends Area2D
 @export var TAG = "Enemy"
 @onready var topArea = $HeadTop
 @onready var bodyArea = $"."
-@onready var rayCastRight = $RayCast2D
-@onready var rayCastLeft = $RayCast2D2
+@onready var rayCastRight = $RayCastRight
+@onready var rayCastLeft =$RayCastLeft
 
 var direction = 1
 var speed = 40
@@ -20,8 +20,10 @@ func _on_body_entered(body):
 func _process(delta):
 	# Check for obstacles before moving
 	if (!rayCastLeft.is_colliding() && get_node("%Player").position.x - position.x < 0):
+		direction = 1
 		position.x -= speed * delta
 	elif (!rayCastRight.is_colliding() && get_node("%Player").position.x - position.x > 0):
+		direction = 1
 		position.x += speed * delta
 
 func _on_area_2d_body_entered(body):
