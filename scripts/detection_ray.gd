@@ -5,6 +5,7 @@ var P
 var D = 0.0
 var X
 var Yoffset = 0.0
+var C
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	Yoffset = target_position.y
@@ -20,8 +21,8 @@ func _physics_process(delta):
 		P.visible = true
 		P.global_position = X
 		D = map_and_invert(global_position.distance_to(X))
-		#var C = Color(D,D,D,1.0)
-		var C = SetColorOnTarget("None", D)
+		C = SetColorOnTarget("none", D)
+
 		P.modulate = C
 		var Ran = randf_range(0.275,0.95)
 		P.scale = Vector2(Ran,Ran)
@@ -49,5 +50,7 @@ func darken_color(color: Color, factor: float) -> Color:
 
 func SetColorOnTarget(target: String, dist: float) -> Color:
 	match target:
+		"box":
+			return darken_color(Color.SADDLE_BROWN, dist)
 		_:
 			return darken_color(Color(1, 1, 1), dist*2)

@@ -1,7 +1,6 @@
-extends StaticBody2D
+extends Area2D
 
-var TAG = "Special"
-@export var power: PowerUps
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
@@ -11,12 +10,6 @@ func _ready():
 func _process(delta):
 	pass
 
-func exportTag() -> String:
-	return TAG
 
-enum PowerUps {
-	Mushroom,
-	Star,
-	NONE,
-	fire
-}
+func _on_body_entered(body):
+	get_tree().change_scene_to_file("res://Scenes/NewGame.tscn")

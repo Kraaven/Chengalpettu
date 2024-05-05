@@ -1,11 +1,13 @@
-[gd_scene load_steps=10 format=3 uid="uid://bcna5w3yhd63u"]
+[gd_scene load_steps=13 format=3 uid="uid://bcna5w3yhd63u"]
 
 [ext_resource type="Texture2D" uid="uid://c70iaaumc6600" path="res://Images/Level.jpg" id="1_1mpbw"]
 [ext_resource type="Script" path="res://scripts/CharacterBody2D.gd" id="1_cxr35"]
 [ext_resource type="Script" path="res://scripts/Raycasts.gd" id="2_5xw4a"]
 [ext_resource type="PackedScene" uid="uid://dmi8wj0j6vd12" path="res://Scenes/block.tscn" id="3_ucfjb"]
+[ext_resource type="Texture2D" uid="uid://cqphlc7te15o4" path="res://Images/EchoP.png" id="4_ies3f"]
 [ext_resource type="PackedScene" uid="uid://c55iswksq1fsw" path="res://Scenes/Special Box.tscn" id="5_riifv"]
 [ext_resource type="PackedScene" uid="uid://c1o30w1hut6oo" path="res://Scenes/Unbreakable block.tscn" id="6_u20pe"]
+[ext_resource type="Script" path="res://scripts/Bottom.gd" id="7_qhm8t"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_80dw8"]
 
@@ -13,6 +15,9 @@
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xyuwu"]
 size = Vector2(589, 32)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xybd0"]
+size = Vector2(6073, 22)
 
 [node name="Node2D" type="Node2D"]
 
@@ -27,6 +32,13 @@ metadata/_edit_lock_ = true
 position = Vector2(0, -47)
 script = ExtResource("1_cxr35")
 
+[node name="Sprite2D2" type="Sprite2D" parent="CharacterBody2D"]
+modulate = Color(0.0931726, 0.0517864, 0, 1)
+show_behind_parent = true
+position = Vector2(-3.50002, 9.50004)
+scale = Vector2(159.8, 119)
+texture = ExtResource("4_ies3f")
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 shape = SubResource("CircleShape2D_80dw8")
 
@@ -39,6 +51,7 @@ texture = SubResource("PlaceholderTexture2D_es74b")
 script = ExtResource("2_5xw4a")
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+offset = Vector2(0, -55.555)
 zoom = Vector2(2, 2)
 position_smoothing_enabled = true
 
@@ -761,14 +774,23 @@ position = Vector2(3521, -90)
 [node name="StaticBody2D129" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3497, -113)
 
-[node name="StaticBody2D" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D64" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(4251, -120)
 
-[node name="StaticBody2D2" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D65" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(4275, -120)
 
-[node name="StaticBody2D3" parent="." instance=ExtResource("5_riifv")]
+[node name="StaticBody2D66" parent="Level Blocks" instance=ExtResource("5_riifv")]
 position = Vector2(4299, -120)
 
-[node name="StaticBody2D4" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D67" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(4323, -120)
+
+[node name="BottomLimit" type="Area2D" parent="."]
+script = ExtResource("7_qhm8t")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BottomLimit"]
+position = Vector2(2729.5, 157)
+shape = SubResource("RectangleShape2D_xybd0")
+
+[connection signal="body_entered" from="BottomLimit" to="BottomLimit" method="_on_body_entered"]

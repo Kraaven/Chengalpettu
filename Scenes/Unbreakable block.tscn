@@ -5,3 +5,4 @@
 
 [node name="StaticBody2D2" instance=ExtResource("1_laqkt")]
 script = ExtResource("2_xowxt")
+TAG = "Unbreakable"
