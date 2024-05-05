@@ -10,3 +10,4 @@ res://Scenes/block.tscn
 res://scripts/CharacterBody2D.gd
 res://scripts/Bottom.gd
 res://scripts/detection_ray.gd
+res://scripts/Special Box.gd

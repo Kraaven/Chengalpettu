@@ -4,6 +4,7 @@ var TAG = "Special"
 @export var power: PowerUps
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	power = PowerUps.NONE
 	pass # Replace with function body.
 
 
