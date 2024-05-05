@@ -80,6 +80,7 @@ position = Vector2(473, -124)
 position = Vector2(521, -124)
 
 [node name="StaticBody2D3" parent="Level Blocks" instance=ExtResource("5_riifv")]
+visible = false
 position = Vector2(323, -125)
 
 [node name="StaticBody2D4" parent="Level Blocks" instance=ExtResource("5_riifv")]

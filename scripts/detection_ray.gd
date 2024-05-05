@@ -50,4 +50,4 @@ func darken_color(color: Color, factor: float) -> Color:
 func SetColorOnTarget(target: String, dist: float) -> Color:
 	match target:
 		_:
-			return darken_color(Color(1, 1, 1), dist)
+			return darken_color(Color(1, 1, 1), dist*2)

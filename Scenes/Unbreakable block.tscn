@@ -1,5 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://c1o30w1hut6oo"]
+[gd_scene load_steps=3 format=3 uid="uid://c1o30w1hut6oo"]
 
 [ext_resource type="PackedScene" uid="uid://dmi8wj0j6vd12" path="res://Scenes/block.tscn" id="1_laqkt"]
+[ext_resource type="Script" path="res://scripts/Unbreakable block.gd" id="2_xowxt"]
 
 [node name="StaticBody2D2" instance=ExtResource("1_laqkt")]
+script = ExtResource("2_xowxt")

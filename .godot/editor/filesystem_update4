@@ -1,10 +1,8 @@
-res://Scenes/MainWorld.tscn
-res://Scenes/NewGame.tscn
-res://Scenes/EchoParticle.tscn
-res://Scenes/detection_ray.tscn
-res://Scenes/Home.tscn
-res://Scenes/block.tscn
 res://Scenes/Special Box.tscn
 res://Scenes/Unbreakable block.tscn
-res://scripts/Raycasts.gd
-res://scripts/detection_ray.gd
+res://scripts/Unbreakable block.gd
+res://scripts/Special Box.gd
+res://Scenes/block.tscn
+res://scripts/block.gd
+res://Scenes/NewGame.tscn
+res://scripts/Player.gd
