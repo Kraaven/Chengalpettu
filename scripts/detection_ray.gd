@@ -12,6 +12,7 @@ func _ready():
 	P = EcoP.instantiate()
 	P.scale *= 0.5
 	add_child(P)
+	collide_with_areas = true
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -55,5 +56,7 @@ func SetColorOnTarget(target: String, dist: float) -> Color:
 			return darken_color(Color.SADDLE_BROWN, dist)
 		"Special":
 			return darken_color(Color.YELLOW, dist*1.5)
+		"Enemy":
+			return darken_color(Color.RED, dist)
 		_:
 			return darken_color(Color(1, 1, 1), dist*2)

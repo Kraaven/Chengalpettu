@@ -351,46 +351,46 @@ position = Vector2(3413, -90)
 position = Vector2(3413, -113)
 
 [node name="StaticBody2D136" parent="Level Blocks" instance=ExtResource("6_u20pe")]
-position = Vector2(3773, -44)
+position = Vector2(3777, -44)
 
 [node name="StaticBody2D146" parent="Level Blocks" instance=ExtResource("6_u20pe")]
-position = Vector2(3749, -44)
+position = Vector2(3753, -44)
 
 [node name="StaticBody2D147" parent="Level Blocks" instance=ExtResource("6_u20pe")]
-position = Vector2(3773, -67)
+position = Vector2(3777, -67)
 
 [node name="StaticBody2D148" parent="Level Blocks" instance=ExtResource("6_u20pe")]
-position = Vector2(3797, -90)
+position = Vector2(3801, -90)
 
 [node name="StaticBody2D149" parent="Level Blocks" instance=ExtResource("6_u20pe")]
-position = Vector2(3821, -113)
+position = Vector2(3825, -113)
 
 [node name="StaticBody2D137" parent="Level Blocks" instance=ExtResource("6_u20pe")]
-position = Vector2(3797, -44)
+position = Vector2(3801, -44)
 
 [node name="StaticBody2D138" parent="Level Blocks" instance=ExtResource("6_u20pe")]
-position = Vector2(3821, -44)
+position = Vector2(3825, -44)
 
 [node name="StaticBody2D139" parent="Level Blocks" instance=ExtResource("6_u20pe")]
-position = Vector2(3845, -44)
+position = Vector2(3849, -44)
 
 [node name="StaticBody2D140" parent="Level Blocks" instance=ExtResource("6_u20pe")]
-position = Vector2(3797, -67)
+position = Vector2(3801, -67)
 
 [node name="StaticBody2D141" parent="Level Blocks" instance=ExtResource("6_u20pe")]
-position = Vector2(3821, -67)
+position = Vector2(3825, -67)
 
 [node name="StaticBody2D142" parent="Level Blocks" instance=ExtResource("6_u20pe")]
-position = Vector2(3845, -67)
+position = Vector2(3849, -67)
 
 [node name="StaticBody2D143" parent="Level Blocks" instance=ExtResource("6_u20pe")]
-position = Vector2(3821, -90)
+position = Vector2(3825, -90)
 
 [node name="StaticBody2D144" parent="Level Blocks" instance=ExtResource("6_u20pe")]
-position = Vector2(3845, -90)
+position = Vector2(3849, -90)
 
 [node name="StaticBody2D145" parent="Level Blocks" instance=ExtResource("6_u20pe")]
-position = Vector2(3845, -113)
+position = Vector2(3849, -113)
 
 [node name="StaticBody2D170" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(4716, -44)
