@@ -62,6 +62,18 @@ shape = SubResource("RectangleShape2D_xyuwu")
 position = Vector2(1181, -1)
 shape = SubResource("RectangleShape2D_xyuwu")
 
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Level Blocks/StaticBody2D6"]
+position = Vector2(4211, 0)
+shape = SubResource("RectangleShape2D_xyuwu")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="Level Blocks/StaticBody2D6"]
+position = Vector2(4800, 0)
+shape = SubResource("RectangleShape2D_xyuwu")
+
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="Level Blocks/StaticBody2D6"]
+position = Vector2(5389, 0)
+shape = SubResource("RectangleShape2D_xyuwu")
+
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="Level Blocks/StaticBody2D6"]
 position = Vector2(2491, 0)
 shape = SubResource("RectangleShape2D_xyuwu")
@@ -92,308 +104,671 @@ position = Vector2(497, -124)
 [node name="StaticBody2D20" parent="Level Blocks" instance=ExtResource("5_riifv")]
 position = Vector2(476, -226)
 
-[node name="StaticBody2D" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D8" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1478, -22)
 
-[node name="StaticBody2D2" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D9" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1502, -22)
 
-[node name="StaticBody2D3" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D10" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1526, -22)
 
-[node name="StaticBody2D4" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D11" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1550, -22)
 
-[node name="StaticBody2D5" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D12" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1574, -22)
 
-[node name="StaticBody2D6" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D13" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1598, -22)
 
-[node name="StaticBody2D7" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D14" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1622, -22)
 
-[node name="StaticBody2D8" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D15" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1646, -22)
 
-[node name="StaticBody2D9" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D16" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1738, -21)
 
-[node name="StaticBody2D10" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D17" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1762, -21)
 
-[node name="StaticBody2D11" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D18" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1786, -21)
 
-[node name="StaticBody2D12" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D21" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1810, -21)
 
-[node name="StaticBody2D13" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D22" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1834, -21)
 
-[node name="StaticBody2D14" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D23" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1858, -21)
 
-[node name="StaticBody2D15" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D24" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1882, -21)
 
-[node name="StaticBody2D16" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D25" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1906, -21)
 
-[node name="StaticBody2D17" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D26" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1930, -21)
 
-[node name="StaticBody2D18" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D27" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1954, -21)
 
-[node name="StaticBody2D19" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D28" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1978, -21)
 
-[node name="StaticBody2D20" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D29" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2002, -21)
 
-[node name="StaticBody2D21" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D30" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2026, -21)
 
-[node name="StaticBody2D22" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D31" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2050, -21)
 
-[node name="StaticBody2D23" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D32" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2074, -21)
 
-[node name="StaticBody2D24" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D33" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2098, -21)
 
-[node name="StaticBody2D25" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D34" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1965, -224)
 
-[node name="StaticBody2D26" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D35" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1989, -224)
 
-[node name="StaticBody2D27" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D36" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2013, -224)
 
-[node name="StaticBody2D28" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D37" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2037, -224)
 
-[node name="StaticBody2D29" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D38" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2061, -224)
 
-[node name="StaticBody2D30" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D39" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2085, -224)
 
-[node name="StaticBody2D31" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D40" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2109, -224)
 
-[node name="StaticBody2D32" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D41" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2133, -224)
 
-[node name="StaticBody2D33" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D42" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1893, -124)
 
-[node name="StaticBody2D34" parent="." instance=ExtResource("5_riifv")]
+[node name="StaticBody2D43" parent="Level Blocks" instance=ExtResource("5_riifv")]
 position = Vector2(1917, -124)
 
-[node name="StaticBody2D35" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D44" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(1942, -124)
 
-[node name="StaticBody2D36" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D45" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2247, -226)
 
-[node name="StaticBody2D37" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D46" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2271, -226)
 
-[node name="StaticBody2D38" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D47" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2295, -226)
 
-[node name="StaticBody2D39" parent="." instance=ExtResource("5_riifv")]
+[node name="StaticBody2D48" parent="Level Blocks" instance=ExtResource("5_riifv")]
 position = Vector2(2319, -226)
 
-[node name="StaticBody2D40" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D49" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2323, -124)
 
-[node name="StaticBody2D47" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D50" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2934, -122)
 
-[node name="StaticBody2D50" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D51" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(3057, -226)
 
-[node name="StaticBody2D42" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D52" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2476, -123)
 
-[node name="StaticBody2D43" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D53" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(2500, -123)
 
-[node name="StaticBody2D48" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D54" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(3009, -226)
 
-[node name="StaticBody2D49" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D55" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(3033, -226)
 
-[node name="StaticBody2D80" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D80" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(3214, -122)
 
-[node name="StaticBody2D81" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D81" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(3238, -122)
 
-[node name="StaticBody2D72" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D72" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(3422, -21)
 
-[node name="StaticBody2D73" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D73" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(3374, -21)
 
-[node name="StaticBody2D74" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D74" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(3398, -21)
 
-[node name="StaticBody2D75" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D75" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(3445, -21)
 
-[node name="StaticBody2D76" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D76" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(3516, -21)
 
-[node name="StaticBody2D77" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D77" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(3468, -21)
 
-[node name="StaticBody2D78" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D78" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(3492, -21)
 
-[node name="StaticBody2D79" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D79" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(3539, -21)
 
-[node name="StaticBody2D53" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D113" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
+position = Vector2(3563, -21)
+
+[node name="StaticBody2D114" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
+position = Vector2(3611, -21)
+
+[node name="StaticBody2D169" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
+position = Vector2(3635, -21)
+
+[node name="StaticBody2D115" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
+position = Vector2(3587, -21)
+
+[node name="StaticBody2D117" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
+position = Vector2(3705, -21)
+
+[node name="StaticBody2D118" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
+position = Vector2(3657, -21)
+
+[node name="StaticBody2D119" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
+position = Vector2(3681, -21)
+
+[node name="StaticBody2D130" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
+position = Vector2(3728, -21)
+
+[node name="StaticBody2D131" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
+position = Vector2(3752, -21)
+
+[node name="StaticBody2D132" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
+position = Vector2(3799, -21)
+
+[node name="StaticBody2D133" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
+position = Vector2(3775, -21)
+
+[node name="StaticBody2D134" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
+position = Vector2(3822, -21)
+
+[node name="StaticBody2D135" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
+position = Vector2(3846, -21)
+
+[node name="StaticBody2D56" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(3190, -225)
 
-[node name="StaticBody2D54" parent="." instance=ExtResource("3_ucfjb")]
+[node name="StaticBody2D57" parent="Level Blocks" instance=ExtResource("3_ucfjb")]
 position = Vector2(3262, -225)
 
-[node name="StaticBody2D41" parent="." instance=ExtResource("5_riifv")]
+[node name="StaticBody2D58" parent="Level Blocks" instance=ExtResource("5_riifv")]
 position = Vector2(2629, -123)
 
-[node name="StaticBody2D44" parent="." instance=ExtResource("5_riifv")]
+[node name="StaticBody2D59" parent="Level Blocks" instance=ExtResource("5_riifv")]
 position = Vector2(2705, -124)
 
-[node name="StaticBody2D45" parent="." instance=ExtResource("5_riifv")]
+[node name="StaticBody2D60" parent="Level Blocks" instance=ExtResource("5_riifv")]
 position = Vector2(2705, -224)
 
-[node name="StaticBody2D46" parent="." instance=ExtResource("5_riifv")]
+[node name="StaticBody2D61" parent="Level Blocks" instance=ExtResource("5_riifv")]
 position = Vector2(2781, -124)
 
-[node name="StaticBody2D55" parent="." instance=ExtResource("5_riifv")]
+[node name="StaticBody2D62" parent="Level Blocks" instance=ExtResource("5_riifv")]
 position = Vector2(3238, -225)
 
-[node name="StaticBody2D56" parent="." instance=ExtResource("5_riifv")]
+[node name="StaticBody2D63" parent="Level Blocks" instance=ExtResource("5_riifv")]
 position = Vector2(3214, -225)
 
-[node name="StaticBody2D82" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D82" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(631, -45)
 
-[node name="StaticBody2D83" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D83" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(653, -45)
 
-[node name="StaticBody2D86" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D86" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(626, -68)
 
-[node name="StaticBody2D87" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D87" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(644, -68)
 
-[node name="StaticBody2D88" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D88" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(657, -68)
 
-[node name="StaticBody2D89" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D116" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4126, -43)
+
+[node name="StaticBody2D157" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4148, -43)
+
+[node name="StaticBody2D160" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4121, -66)
+
+[node name="StaticBody2D162" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4139, -66)
+
+[node name="StaticBody2D163" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4152, -66)
+
+[node name="StaticBody2D164" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4531, -42)
+
+[node name="StaticBody2D165" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4553, -42)
+
+[node name="StaticBody2D166" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4526, -65)
+
+[node name="StaticBody2D167" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4544, -65)
+
+[node name="StaticBody2D168" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4557, -65)
+
+[node name="StaticBody2D89" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(885, -45)
 
-[node name="StaticBody2D90" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D90" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(907, -45)
 
-[node name="StaticBody2D91" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D91" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(885, -68)
 
-[node name="StaticBody2D92" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D92" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(880, -91)
 
-[node name="StaticBody2D93" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D93" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(898, -91)
 
-[node name="StaticBody2D94" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D94" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(911, -91)
 
-[node name="StaticBody2D95" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D95" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(907, -68)
 
-[node name="StaticBody2D96" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D96" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(1088, -44)
 
-[node name="StaticBody2D97" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D97" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(1110, -44)
 
-[node name="StaticBody2D98" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D98" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(1088, -67)
 
-[node name="StaticBody2D99" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D99" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(1083, -113)
 
-[node name="StaticBody2D100" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D100" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(1101, -113)
 
-[node name="StaticBody2D101" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D101" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(1114, -113)
 
-[node name="StaticBody2D102" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D102" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(1110, -67)
 
-[node name="StaticBody2D103" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D103" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(1088, -90)
 
-[node name="StaticBody2D104" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D104" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(1110, -90)
 
-[node name="StaticBody2D84" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D84" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3341, -44)
 
-[node name="StaticBody2D85" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D85" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3365, -44)
 
-[node name="StaticBody2D105" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D105" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3389, -44)
 
-[node name="StaticBody2D106" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D106" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3413, -44)
 
-[node name="StaticBody2D107" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D107" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3365, -67)
 
-[node name="StaticBody2D108" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D108" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3389, -67)
 
-[node name="StaticBody2D109" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D109" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3413, -67)
 
-[node name="StaticBody2D110" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D110" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3389, -90)
 
-[node name="StaticBody2D111" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D111" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3413, -90)
 
-[node name="StaticBody2D112" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D112" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3413, -113)
 
-[node name="StaticBody2D113" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D136" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3773, -44)
+
+[node name="StaticBody2D146" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3749, -44)
+
+[node name="StaticBody2D147" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3773, -67)
+
+[node name="StaticBody2D148" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3797, -90)
+
+[node name="StaticBody2D149" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3821, -113)
+
+[node name="StaticBody2D137" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3797, -44)
+
+[node name="StaticBody2D138" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3821, -44)
+
+[node name="StaticBody2D139" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3845, -44)
+
+[node name="StaticBody2D140" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3797, -67)
+
+[node name="StaticBody2D141" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3821, -67)
+
+[node name="StaticBody2D142" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3845, -67)
+
+[node name="StaticBody2D143" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3821, -90)
+
+[node name="StaticBody2D144" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3845, -90)
+
+[node name="StaticBody2D145" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3845, -113)
+
+[node name="StaticBody2D170" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4716, -44)
+
+[node name="StaticBody2D171" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4692, -44)
+
+[node name="StaticBody2D172" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4716, -67)
+
+[node name="StaticBody2D173" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4740, -90)
+
+[node name="StaticBody2D174" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4764, -113)
+
+[node name="StaticBody2D175" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4740, -44)
+
+[node name="StaticBody2D176" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4764, -44)
+
+[node name="StaticBody2D177" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4788, -44)
+
+[node name="StaticBody2D178" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4740, -67)
+
+[node name="StaticBody2D179" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4764, -67)
+
+[node name="StaticBody2D180" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4788, -67)
+
+[node name="StaticBody2D181" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4764, -90)
+
+[node name="StaticBody2D182" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4788, -90)
+
+[node name="StaticBody2D183" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4788, -113)
+
+[node name="StaticBody2D184" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4596, -44)
+
+[node name="StaticBody2D189" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4620, -44)
+
+[node name="StaticBody2D190" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4644, -44)
+
+[node name="StaticBody2D191" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4668, -44)
+
+[node name="StaticBody2D192" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4620, -67)
+
+[node name="StaticBody2D198" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4692, -67)
+
+[node name="StaticBody2D193" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4644, -67)
+
+[node name="StaticBody2D194" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4668, -67)
+
+[node name="StaticBody2D195" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4644, -90)
+
+[node name="StaticBody2D196" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4668, -90)
+
+[node name="StaticBody2D199" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4692, -90)
+
+[node name="StaticBody2D200" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4716, -90)
+
+[node name="StaticBody2D201" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4716, -113)
+
+[node name="StaticBody2D202" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4740, -113)
+
+[node name="StaticBody2D197" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4668, -113)
+
+[node name="StaticBody2D203" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4692, -113)
+
+[node name="StaticBody2D185" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4764, -136)
+
+[node name="StaticBody2D186" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4788, -136)
+
+[node name="StaticBody2D204" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4716, -136)
+
+[node name="StaticBody2D205" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4740, -136)
+
+[node name="StaticBody2D187" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4764, -159)
+
+[node name="StaticBody2D188" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4788, -159)
+
+[node name="StaticBody2D207" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4716, -159)
+
+[node name="StaticBody2D208" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4740, -159)
+
+[node name="StaticBody2D209" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4764, -182)
+
+[node name="StaticBody2D210" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4788, -182)
+
+[node name="StaticBody2D212" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4764, -205)
+
+[node name="StaticBody2D213" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4788, -205)
+
+[node name="StaticBody2D214" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5014, -44)
+
+[node name="StaticBody2D215" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5114, -44)
+
+[node name="StaticBody2D216" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5138, -44)
+
+[node name="StaticBody2D217" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5138, -67)
+
+[node name="StaticBody2D218" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5114, -67)
+
+[node name="StaticBody2D223" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5138, -90)
+
+[node name="StaticBody2D224" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5114, -90)
+
+[node name="StaticBody2D225" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5216, -90)
+
+[node name="StaticBody2D226" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5192, -90)
+
+[node name="StaticBody2D227" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5162, -90)
+
+[node name="StaticBody2D228" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5173, -90)
+
+[node name="StaticBody2D229" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5140, -113)
+
+[node name="StaticBody2D230" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5140, -136)
+
+[node name="StaticBody2D231" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5164, -113)
+
+[node name="StaticBody2D232" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5164, -136)
+
+[node name="StaticBody2D233" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5188, -112)
+
+[node name="StaticBody2D234" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5188, -135)
+
+[node name="StaticBody2D235" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5193, -113)
+
+[node name="StaticBody2D236" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5193, -136)
+
+[node name="StaticBody2D219" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5192, -44)
+
+[node name="StaticBody2D220" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5216, -44)
+
+[node name="StaticBody2D221" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5216, -67)
+
+[node name="StaticBody2D222" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(5192, -67)
+
+[node name="StaticBody2D211" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4740, -182)
+
+[node name="StaticBody2D206" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(4692, -136)
+
+[node name="StaticBody2D150" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3920, -43)
+
+[node name="StaticBody2D151" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3920, -89)
+
+[node name="StaticBody2D152" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3920, -66)
+
+[node name="StaticBody2D153" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3944, -89)
+
+[node name="StaticBody2D154" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3920, -112)
+
+[node name="StaticBody2D155" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3944, -43)
+
+[node name="StaticBody2D156" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3968, -43)
+
+[node name="StaticBody2D158" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3944, -66)
+
+[node name="StaticBody2D159" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3968, -66)
+
+[node name="StaticBody2D161" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3992, -44)
+
+[node name="StaticBody2D120" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3497, -44)
 
-[node name="StaticBody2D114" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D121" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3521, -44)
 
-[node name="StaticBody2D115" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D122" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3545, -44)
+
+[node name="StaticBody2D123" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3569, -44)
+
+[node name="StaticBody2D124" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3497, -67)
 
-[node name="StaticBody2D116" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D125" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3521, -67)
 
-[node name="StaticBody2D117" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D126" parent="Level Blocks" instance=ExtResource("6_u20pe")]
+position = Vector2(3545, -67)
+
+[node name="StaticBody2D127" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3497, -90)
 
-[node name="StaticBody2D118" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D128" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3521, -90)
 
-[node name="StaticBody2D119" parent="." instance=ExtResource("6_u20pe")]
+[node name="StaticBody2D129" parent="Level Blocks" instance=ExtResource("6_u20pe")]
 position = Vector2(3497, -113)
+
+[node name="StaticBody2D" parent="." instance=ExtResource("3_ucfjb")]
+position = Vector2(4251, -120)
+
+[node name="StaticBody2D2" parent="." instance=ExtResource("3_ucfjb")]
+position = Vector2(4275, -120)
+
+[node name="StaticBody2D3" parent="." instance=ExtResource("5_riifv")]
+position = Vector2(4299, -120)
+
+[node name="StaticBody2D4" parent="." instance=ExtResource("3_ucfjb")]
+position = Vector2(4323, -120)

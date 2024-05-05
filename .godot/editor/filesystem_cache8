@@ -1,29 +1,30 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714874893
-README.md::TextFile::-1::1714842376::0::1::::<><>::
-::res://Images/::1714874264
-EchoP.png::CompressedTexture2D::5927273349938053089::1714846737::1714846842::1::::<><>::
-Interiors_free_16x16.png::CompressedTexture2D::3135357657130185647::1714839001::1714854802::1::::<><>::
-Level.jpg::CompressedTexture2D::7070979575042105727::1714874264::1714874264::1::::<><>::
-::res://Images/Player/::1714842837
-Adam_16x16.png::CompressedTexture2D::7301516259110451985::1714839000::1714842837::1::::<><>::
-::res://Images/Room/::1714846086
-::res://Scenes/::1714874855
-block.tscn::PackedScene::8020086656776807699::1714874264::0::1::::<><>::
-detection_ray.tscn::PackedScene::1547705048661517804::1714874525::0::1::::<><>::res://scripts/detection_ray.gd
-EchoParticle.tscn::PackedScene::7549251809666423139::1714874451::0::1::::<><>::uid://cqphlc7te15o4::::res://Images/EchoP.png
-Home.tscn::PackedScene::1153769660219061824::1714860477::0::1::::<><>::uid://bkw15ahasrph4::::res://Images/Interiors_free_16x16.png
-MainWorld.tscn::PackedScene::3756092877621905133::1714874450::0::1::::<><>::uid://bcna5w3yhd63u::::res://Scenes/NewGame.tscn
-NewGame.tscn::PackedScene::2553690055457275856::1714874855::0::1::::<><>::uid://c70iaaumc6600::::res://Images/Level.jpg<>res://scripts/CharacterBody2D.gd<>res://scripts/Raycasts.gd<>uid://dmi8wj0j6vd12::::res://Scenes/block.tscn<>uid://c55iswksq1fsw::::res://Scenes/Special Box.tscn<>uid://c1o30w1hut6oo::::res://Scenes/Unbreakable block.tscn
-Player.tscn::PackedScene::5334744627272666666::1714843449::0::1::::<><>::res://scripts/Player.gd<>uid://dca552mkykoy0::::res://Images/Player/Adam_16x16.png
-Raycasts.gd::GDScript::-1::1714871140::0::1::::<>Node2D<>::
-Special Box.tscn::PackedScene::6940957061183381406::1714874850::0::1::::<><>::uid://dmi8wj0j6vd12::::res://Scenes/block.tscn
-Unbreakable block.tscn::PackedScene::6628398507201140126::1714874855::0::1::::<><>::uid://dmi8wj0j6vd12::::res://Scenes/block.tscn<>res://scripts/Unbreakable block.gd
-::res://scripts/::1714874855
-Cast.gd::GDScript::-1::1714859727::0::1::::<>RayCast2D<>::
-caster.gd::GDScript::-1::1714847541::0::1::::<>RefCounted<>::
-CharacterBody2D.gd::GDScript::-1::1714874264::0::1::::<>CharacterBody2D<>::
-detection_ray.gd::GDScript::-1::1714874855::0::1::::<>RayCast2D<>::
-Player.gd::GDScript::-1::1714860477::0::1::::<>CharacterBody2D<>::
-Raycasts.gd::GDScript::-1::1714874264::0::1::::<>Node2D<>::
-Unbreakable block.gd::GDScript::-1::1714874855::0::1::::<>StaticBody2D<>::
+::res://::1714876009
+README.md::TextFile::-1::1714842543::0::1::::<><>::
+::res://Images/::1714873894
+EchoP.png::CompressedTexture2D::5927273349938053089::1714855791::1714855791::1::::<><>::
+Interiors_free_16x16.png::CompressedTexture2D::3135357657130185647::1714855791::1714855791::1::::<><>::
+Level.jpg::CompressedTexture2D::7070979575042105727::1714873894::1714873894::1::::<><>::
+::res://Images/Player/::1714849269
+Adam_16x16.png::CompressedTexture2D::7301516259110451985::1714845522::1714845522::1::::<><>::
+::res://Scenes/::1714875929
+block.tscn::PackedScene::8020086656776807699::1714875923::0::1::::<><>::res://scripts/block.gd
+detection_ray.tscn::PackedScene::1547705048661517804::1714875761::0::1::::<><>::res://scripts/detection_ray.gd
+EchoParticle.tscn::PackedScene::7549251809666423139::1714875761::0::1::::<><>::uid://cqphlc7te15o4::::res://Images/EchoP.png
+Home.tscn::PackedScene::1153769660219061824::1714875762::0::1::::<><>::uid://bkw15ahasrph4::::res://Images/Interiors_free_16x16.png
+MainWorld.tscn::PackedScene::3756092877621905133::1714875760::0::1::::<><>::uid://bcna5w3yhd63u::::res://Scenes/NewGame.tscn
+NewGame.tscn::PackedScene::2553690055457275856::1714875929::0::1::::<><>::uid://c70iaaumc6600::::res://Images/Level.jpg<>res://scripts/CharacterBody2D.gd<>res://scripts/Raycasts.gd<>uid://dmi8wj0j6vd12::::res://Scenes/block.tscn<>uid://c55iswksq1fsw::::res://Scenes/Special Box.tscn<>uid://c1o30w1hut6oo::::res://Scenes/Unbreakable block.tscn
+Player.tscn::PackedScene::5334744627272666666::1714853709::0::1::::<><>::res://scripts/Player.gd<>uid://dca552mkykoy0::::res://Images/Player/Adam_16x16.png
+Raycasts.gd::GDScript::-1::1714873888::0::1::::<>Node2D<>::
+Special Box.tscn::PackedScene::6940957061183381406::1714875923::0::1::::<><>::uid://dmi8wj0j6vd12::::res://Scenes/block.tscn<>res://scripts/Special Box.gd
+Unbreakable block.tscn::PackedScene::6628398507201140126::1714875923::0::1::::<><>::uid://dmi8wj0j6vd12::::res://Scenes/block.tscn<>res://scripts/Unbreakable block.gd
+::res://scripts/::1714875923
+block.gd::GDScript::-1::1714875923::0::1::::<>StaticBody2D<>::
+Cast.gd::GDScript::-1::1714855791::0::1::::<>RayCast2D<>::
+caster.gd::GDScript::-1::1714855791::0::1::::<>RefCounted<>::
+CharacterBody2D.gd::GDScript::-1::1714873894::0::1::::<>CharacterBody2D<>::
+detection_ray.gd::GDScript::-1::1714875923::0::1::::<>RayCast2D<>::
+Player.gd::GDScript::-1::1714875923::0::1::::<>CharacterBody2D<>::
+Raycasts.gd::GDScript::-1::1714874171::0::1::::<>Node2D<>::
+Special Box.gd::GDScript::-1::1714875923::0::1::::<>StaticBody2D<>::
+Unbreakable block.gd::GDScript::-1::1714875923::0::1::::<>StaticBody2D<>::
