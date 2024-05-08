@@ -1,5 +1,4 @@
 res://Scenes/MainWorld.tscn
-res://scripts/mushroom-manager.gd
 res://Scenes/NewGame.tscn
 res://Scenes/EchoParticle.tscn
 res://Scenes/detection_ray.tscn
